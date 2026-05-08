@@ -776,3 +776,27 @@ color:white;
 .mail-icon{
 color:rgba(255,80,80,0.6);
 }
+
+/* Contact Section Rows */
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.contact-icon {
+  color: rgba(255, 80, 80, 0.6);
+}
+
+.contact-link {
+  color: #a1a1aa;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: white;
+}
